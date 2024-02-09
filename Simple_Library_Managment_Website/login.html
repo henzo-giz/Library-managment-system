@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script defer src="scrips/login.js"></script>
+</head>
+<body>
+    <header class="header">
+        <img src="assets/dbu-logo1.png" alt="logo">
+        <a href="base.html" class="logo">DBU Main Library</a>
+        <nav class="nav">
+            <a href="base.html" class="btn">Log <span>Out</span></a>
+        </nav>
+    </header>
+
+    <section class="login" id="login">
+        <h2 class="heading">Log <span>In</span></h2>
+
+        <form action="#" class="form" id="form" method="post">
+            <div id="error"></div>
+            <div class="login-box">
+                <h4 class="heading">Username</h4>
+                <input type="number" placeholder="ID Number" name="id" id="name" required>                
+            </div>
+            <div class="login-box">
+                <h4 class="heading">Password</h4>
+                <input type="password" placeholder="Password" name="password" id="password" required>
+            </div>
+            <input type="submit" value="Login" class="btn">
+        </form>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+:root {
+    --bg-color1: #172A3A;
+    --bg-color2: #659ca3;
+
+    --black-1: #1d1d1d;
+    --main-color: #35eeee;
+    --text-color: #fff;
+    --head-font: Verdana, Geneva, Tahoma, sans-serif;
+    --small-font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html {
+    font-size: 80%;
+    font-family: var(--head-font);
+    min-width: 1449px;
+}
+
+body {
+    margin: 0;
+    background: var(--bg-color1);
+    color: var(--text-color);
+}
+
+section {
+    min-height: 965px;
+    padding: 10rem 10% 2rem;
+}
+
+footer {
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header a {
+    margin-right: 1300px;
+    color: var(--text-color);
+    font-size: 12px;
+}
+
+.header img {
+    width: 60px;
+    height: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+.login h2 {
+    font-size: 90px;
+    font-weight: 500;
+}
+
+.login h2 span {
+    margin-top: 30px;
+    color: var(--main-color);
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login form {
+    max-width: 700px;
+    margin: 10px auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login form .login-box input {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    color: #fff;
+    background: var(--bg-color2);
+    border-radius: 10px;
+    margin: 8px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 28px;
+    background: var(--main-color);
+    border-radius: 50px;
+    box-shadow: 0 0 15px var(--main-color);
+    font-size: 20px;
+    color: var(--black-1);
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+.btn:hover {
+    color: #fff;
+    box-shadow: none;
+}
